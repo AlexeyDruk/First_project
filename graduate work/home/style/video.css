@@ -1,0 +1,59 @@
+.companies{
+	display: flex;
+	justify-content: space-between;
+	margin: 180px 70px 100px 70px;
+}
+.video{
+	background-image: url("images_for_background/Rectangle_25.png");
+	max-width: 1080px;
+	height: 512px;
+	margin: 0px auto;
+	display: grid;
+	justify-items: center;
+	align-items: center;
+	position: relative;
+	background-size: cover;
+}
+.video > p{
+	max-width: 296px;
+	background: linear-gradient(to top,#023957,#056088);
+	padding: 32px 67px 39px 53px;
+	color: white;
+	position: absolute;
+	right: 0;
+	bottom: -19px;
+	margin: 0;
+}
+.e-mail{
+	background-image: url("images_for_background/BG.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin: 100px 70px;
+	padding: 55px 80px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.e-mail > h1{
+	max-width: 740px;
+	text-align: center;
+}
+.e-mail > p{
+	max-width: 517px;
+	text-align: center;
+	color: white;
+	font-weight: 500;
+}
+.mail{
+	max-width: 500px;
+	padding: 18px 30px;
+	float: left;
+}
+.submit{
+	padding: 18px 40px;
+	background: linear-gradient(to right,#056088,#09A7CA);
+	color: white;
+}
+form{
+	margin-top: 16px;
+}

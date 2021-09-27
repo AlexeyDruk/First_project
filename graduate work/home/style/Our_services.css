@@ -1,0 +1,41 @@
+.our_services{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.our_services > p{
+	width: 348px;
+	text-align: center;
+}
+.about_the_service{
+	margin: 17px 60px;
+	display: flex;
+}
+.learn_more_about_the_service{
+	box-sizing: border-box;
+	width: 310px;
+	padding: 0px 35px;
+	margin: 0px 10px;
+}
+.learn_more_about_the_service > img{
+	width: 45px;
+	height: 45px;
+	margin: 23px 0px 27px 0px;
+}
+
+.learn_more_about_the_service > p:first-of-type{
+	font-weight: 700;
+	color: #434343;
+	font-size: 20px;
+	margin: 0px 0px 16px 0px;
+}
+.learn_more_about_the_service:first-of-type > p{
+	color: white;
+}
+.learn_more_about_the_service > p:last-of-type{
+	margin-bottom: 16px;
+}
+.learn_more_about_the_service:first-of-type{
+	background-image:url("images_for_background/Rectangle_13.png") ;
+	background-size: cover;
+}
